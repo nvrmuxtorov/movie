@@ -1,0 +1,396 @@
+@font-face {
+    font-family: Qanelas-Black;
+    src: url(../font/Qanelas-Black.otf);
+}
+@font-face {
+    font-family: Qanelas-Bold;
+    src: url(../font/Qanelas-Bold.otf);
+}
+@font-face {
+    font-family: Qanelas-semi-Bold;
+    src: url(../font/Qanelas-SemiBold.otf);
+}
+@font-face {
+    font-family: Qanelas-light;
+    src: url(../font/Qanelas-Light.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+/* header section started */
+header{
+    display: flex;
+    justify-content: center;
+}
+header .allPadgeWith{
+    background:url(../images/back.png) no-repeat ,#1E2538; ;
+    width: 1920px;
+height: 1491px;
+padding-left: 243px;
+padding-top: 26px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+header .allPadgeWith .logotip {
+    margin-right: 158px;
+}
+header .allPadgeWith .logotip .social_media{
+    display: flex;
+    gap: 16%;
+    margin-top: 10px;
+}
+header .allPadgeWith .logotip .social_media i{
+    color: #686868;
+}
+header .allPadgeWith .logotip .social_media i:hover{
+    color: #FFF;
+    cursor: pointer;
+}
+header .allPadgeWith .logotip .logo{
+    display: flex;
+    align-items: center;
+}
+header .allPadgeWith .logotip .logo strong{
+    color: #3657CB; 
+font-family: Qanelas-Bold;
+font-size: 25px;
+font-weight: 800;
+}
+header .allPadgeWith .logotip .logo strong span{
+    color: #fff;   
+}
+header .allPadgeWith nav{
+    display: flex;
+    height: 53px;
+    align-items: center;
+}
+header .allPadgeWith nav .nav_bar ul{
+    display: flex;
+    gap: 10%;
+    margin-right: 400px;
+
+}
+header .allPadgeWith nav .nav_bar ul li a{
+    color: #FFF;
+    font-family: Qanelas-semi-Bold;
+font-size: 17px;
+font-weight: 700;
+}
+header .allPadgeWith nav .nav_bar ul li a:hover::after{
+    content:"";
+    margin-top: 3%;
+    display: block;
+        background-color: #355cbf;
+        width: 100%;
+    height: 1px;
+    margin-right: 100%;
+    transition:linear 2s;
+    cursor: pointer;
+}
+header .allPadgeWith nav .search_bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+header .allPadgeWith nav .search_bar button{
+    width: 138px;
+height: 53px;
+border-radius: 10px;
+background: #3657CB;
+border: none;
+}
+header .allPadgeWith nav .search_bar button:hover{
+    box-shadow: 0px 0px 15px 0px rgba(72, 113, 255, 0.80);
+    cursor: pointer;
+}
+header .allPadgeWith .new_movie{
+    display: flex;
+    margin-top:51px ;
+    align-items: center;
+}
+header .allPadgeWith .new_movie strong{
+    font-family: Qanelas-Black;
+font-size: 65px;
+font-weight: 900;
+color: #FFF;
+}
+header .allPadgeWith .new_movie .line{
+    width: 51.5px;
+height: 2px;
+background-color: #FFF;
+margin: 0 90px ;
+}
+header .allPadgeWith .new_movie ul{
+    display: flex;
+    gap: 5%;
+}
+header .allPadgeWith .new_movie ul li a{
+    color: rgba(255, 255, 255, 0.35);
+font-size: 18px;
+font-weight: 700;
+font-family: Qanelas-semi-Bold;
+}
+header .allPadgeWith .new_movie ul li a:hover{
+    color: #FFF;
+    cursor: pointer;
+}
+header .allPadgeWith .movie_list {
+    margin-top:63px;
+    display: flex;
+    gap: 22.83px;
+    flex-wrap: wrap;
+    width: 1440px;
+}
+header .allPadgeWith .movie_list .container .long{
+    width: 327px;
+}
+header .allPadgeWith .movie_list .container strong {
+    color: #FFF;
+    font-family: Qanelas-semi-Bold;
+    font-size: 18px;
+    font-weight: 700;
+}
+header .allPadgeWith .all_new{
+    width: 200px;
+height: 71px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+margin-top: 51px;
+margin-left: 615px;
+background: #1E2538;
+border: 2px solid #FFF;
+}
+header .allPadgeWith .all_new:hover{
+    border-color: #3657CB;
+    cursor: pointer;
+}
+header .allPadgeWith .all_new:active{
+    box-shadow: 2px 2px 2px 2px rgba(169, 163, 163, 0.481);
+}
+header .allPadgeWith .all_new span{
+    color: #FFF;
+    font-family: Qanelas-semi-Bold;
+font-size: 18px;
+font-weight: 700;
+}
+header .allPadgeWith .movie_list .container p{
+    color: #F2F60F;
+    font-family: Qanelas-light;
+font-size: 15px;
+font-weight: 400;
+margin-top: 4.15px;
+}
+header .allPadgeWith .container .box{
+    width: 339.39px;
+    height: 462.914px;
+    border-radius: 10px;
+    background: url(../images/escape.png);
+    margin-bottom:9.14px ;
+    cursor: pointer;
+}
+header .allPadgeWith .container .joker{
+    background-image: url(../images/joker.png);
+}
+header .allPadgeWith .container .star_wars{
+    background-image: url(../images/star_wars_trash.png);
+}
+header .allPadgeWith .container .sigma{
+    background-image: url(../images/sigma_movie.png);
+}
+header .allPadgeWith .container .ford_vs_ferrari{
+    background-image: url(../images/ford_vs_ferrari.png);
+}
+header .allPadgeWith .container .future {
+    background-image: url(../images/3022.png);
+}
+header .allPadgeWith .container .wild_bird{
+background-image: url(../images/bird.png);
+}
+header .allPadgeWith .container .bad_boys{
+    background-image: url(../images/bad_boys.png);
+}
+header .allPadgeWith .container .box:hover .element{
+    background:rgba(54, 87, 203, 0.65);
+}
+header .allPadgeWith .container .box .element{
+    width: 339.39px;
+    height: 462.914px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    position: relative;
+}
+header .allPadgeWith .container .box .element .rating{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 1;
+    width: 62.275px;
+height: 33.214px;
+border-radius: 5px;
+display: flex;
+background: #89CB36;
+justify-content: center;
+align-items: center;
+}
+header .allPadgeWith .container .box .element .bad{
+
+background: #CB3F36;
+}
+header .allPadgeWith .container .box .element .rating span{
+    color: #FFF;
+    font-family: Qanelas-semi-Bold;
+font-size: 18px;
+font-weight: 700;
+}
+header .allPadgeWith .container .box .element .card{
+    width: 224px;
+height: 71px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 0px 10px 0px rgba(55, 94, 232, 0.40);
+display: none;
+justify-content: center;
+align-items: center;
+}
+header .allPadgeWith .container .box .element .card span{
+    color: #3657CB;
+    font-family: Qanelas-semi-Bold;
+font-size: 18px;
+font-weight: 700;
+line-height: 166.5%; /* 29.97px */
+}
+header .allPadgeWith .container .box:hover .card{
+    display: flex;
+    }
+/* header section ended */
+    /* new_trailers section started */
+    .new_trailers .allPadgeWith{
+        width: 1920px;
+        padding-top: 53px;
+        background: #1E2538;
+        height: 1345px;
+padding-left: 244px;
+    }
+    .new_trailers .allPadgeWith .title{
+        display: flex;
+        align-items: baseline;
+    }
+    .new_trailers .allPadgeWith .title h3{
+        color: #FFF;
+        font-family: Qanelas-Black;
+font-size: 65px;
+font-weight: 900;
+margin-right: 634px;
+    }
+    .new_trailers .allPadgeWith .title span{
+        color: #FFF;
+        font-family: Qanelas-semi-Bold;
+font-size: 22px;
+font-weight: 700;
+    }
+    .new_trailers .allPadgeWith .title img{
+         margin-left: 27px;
+    }
+    .new_trailers .allPadgeWith .fast_furios{
+        margin-top: 70px;
+        width: 1430px;
+height: 765px;
+        margin-bottom: 17px;
+        background-image: url(../images/fast.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .new_trailers .allPadgeWith .movie_name{
+        display: flex;
+        /* align-items: baseline; */
+    }
+    .new_trailers .allPadgeWith .movie_name strong{
+        color: #FFF;
+font-family: Qanelas-Black;
+font-size: 45px;
+font-weight: 900;
+margin-top: 9px;
+    }
+    .new_trailers .allPadgeWith .movie_name .social_media{
+        display: flex;
+        align-items: flex-end;
+        gap: 20px;
+        margin-right: 883px;
+        margin-left: 34px;
+        margin-bottom: 30px;
+    }
+    .new_trailers .allPadgeWith .movie_name .social_media i{
+        color: #6D7792;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .new_trailers .allPadgeWith .movie_name .social_media i:hover{
+        color: #FFF;
+    }
+    .new_trailers .allPadgeWith .movie_name .like{
+        width: 58.871px;
+height: 58.871px;
+border-radius: 10px;
+background: #1B2133;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right:8.13px ;
+    }
+    .new_trailers .allPadgeWith .movie_name .total .like i{
+        font-size: 22px;
+    }   
+    .new_trailers .allPadgeWith .movie_name .total .like i:hover{
+        color: #FFF;
+    }
+    .new_trailers .allPadgeWith .movie_name .total {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .new_trailers .allPadgeWith .movie_name .total .number{
+        color: #FFF;
+font-family: Qanelas-Light;
+font-size: 15px;
+text-align: center;
+margin-top: 8.13px;
+font-weight: 400;
+    }
+    .new_trailers .allPadgeWith .scrool_line{
+        width: 1430px;
+height: 7px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #1B2133;
+margin-top: 24px;
+    }
+    .new_trailers .allPadgeWith .scrool_line .blue_line{
+        width: 422px;
+height: 7px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #3657CB;
+margin-left: 77px;
+    }
+    /* new_trailers section ended   */
